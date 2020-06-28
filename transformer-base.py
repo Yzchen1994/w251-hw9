@@ -20,7 +20,7 @@ d_model = 512
 num_layers = 6
 
 # REPLACE THIS TO THE PATH WITH YOUR WMT DATA
-data_root = "/data/wmt16_de_en"
+data_root = "/data/wmt16_de_en/"
 #data_root = "/raid/wmt16/"
 
 base_params = {
