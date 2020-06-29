@@ -157,7 +157,7 @@ Learning rate is going up and then down. That is expected.
 ~959MB. 4.5 million lines. 
 
 ### What are the files that a TF checkpoint is comprised of?
-
+![Alt text](https://raw.githubusercontent.com/Yzchen1994/w251-hw9/master/best_model_folder.png)
 
 ### How big is your resulting model checkpoint (mb)?
 813M
