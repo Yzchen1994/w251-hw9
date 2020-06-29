@@ -163,6 +163,7 @@ Learning rate is going up and then down. That is expected.
 813M
 
 ### Remember the definition of a "step". How long did an average step take?
-
+Step = epoch / batch size. About 1.5-1.8 seconds per step. (I skimmed through the nohup.out)
 
 ### How does that correlate with the observed network utilization between nodes?
+Haven't found any correlations. The network utilization is not high overall. The GPU usage is always 100%. 
