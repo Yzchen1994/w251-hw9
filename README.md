@@ -137,9 +137,15 @@ apt install nmon
 
 ### Were your GPUs fully utilized?
 Yes. As shown in nvidia-smi GPU usage, it's always 100% GPU-Util. 
+![Alt text](https://raw.githubusercontent.com/Yzchen1994/w251-hw9/master/v100a-gpu-1.png "V100a GPU Utilization")
+![Alt text](https://raw.githubusercontent.com/Yzchen1994/w251-hw9/master/v100b-gpu-1.png "V100b GPU Utilization")
 
 ### Did you monitor network traffic (hint: apt install nmon ) ? Was network the bottleneck?
 Network doesn't seem to have any bottleneck as shown in the nmon monitoring during the training. 
+![Alt text](https://raw.githubusercontent.com/Yzchen1994/w251-hw9/master/v100a-network-1.png "V100a Network Utilization 1")
+![Alt text](https://raw.githubusercontent.com/Yzchen1994/w251-hw9/master/v100a-network-2.png "V100a Network Utilization 2")
+![Alt text](https://raw.githubusercontent.com/Yzchen1994/w251-hw9/master/v100b-network-1.png "V100a Network Utilization 1")
+![Alt text](https://raw.githubusercontent.com/Yzchen1994/w251-hw9/master/v100b-network-2.png "V100a Network Utilization 2")
 
 ### Take a look at the plot of the learning rate and then check the config file. Can you explan this setting?
 ### How big was your training set (mb)? How many training lines did it contain?
