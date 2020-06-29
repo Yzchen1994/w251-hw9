@@ -130,10 +130,13 @@ apt install nmon
 
 ## Q&A
 ### How long does it take to complete the training run? (hint: this session is on distributed training, so it will take a while)
+It takes 17.5 hours. But I cut it short to only run 42900 steps. 
 
 ### Do you think your model is fully trained? How can you tell?
+No. The score becomes 0 for some reason. 
 
 ### Were you overfitting?
+Possibly. The Eval loss becomes NaN after 4000 steps, so it might be reaching to a local minimum.  ![Alt text](https://raw.githubusercontent.com/Yzchen1994/w251-hw9/master/Screen%20Shot%202020-06-29%20at%205.36.29%20PM.png)
 
 ### Were your GPUs fully utilized?
 Yes. As shown in nvidia-smi GPU usage, it's always 100% GPU-Util. 
@@ -148,8 +151,18 @@ Network doesn't seem to have any bottleneck as shown in the nmon monitoring duri
 ![Alt text](https://raw.githubusercontent.com/Yzchen1994/w251-hw9/master/v100b-network-2.png "V100a Network Utilization 2")
 
 ### Take a look at the plot of the learning rate and then check the config file. Can you explan this setting?
+Learning rate is going up and then down. That is expected. 
+
 ### How big was your training set (mb)? How many training lines did it contain?
+~959MB. 4.5 million lines. 
+
 ### What are the files that a TF checkpoint is comprised of?
+
+
 ### How big is your resulting model checkpoint (mb)?
+813M
+
 ### Remember the definition of a "step". How long did an average step take?
+
+
 ### How does that correlate with the observed network utilization between nodes?
